@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import solar from "../../Assets/Projects/leaf.png";
-import logo from "../../Assets/Projects/emotion.png";
+import solar from "../../Assets/Projects/solar.jpg";
+import logo from "../../Assets/Projects/logo.png";
 import frauddetection from "../../Assets/Projects/frauddetection.jpeg";
 import malvibol from "../../Assets/Projects/malvibolo.png";
-import aqr from "../../Assets/Projects/suicide.png";
+import aqr from "../../Assets/Projects/aqr.jpg";
 import ecosort from "../../Assets/Projects/ecosort.png";
 // import logo from "../../Assets/Projects/netflixgpt.jpeg";
 function Projects() {
@@ -95,7 +95,7 @@ temperature (±0.5°C), and humidity (±2%), activating irrigation below 30% and
               description=" Designed a low-cost Arduino-based air pollution monitor using wireless tech, detecting CO2, 
 CO, and NH3, also measuring humidity and temperature, serving as an alcohol and smog detector. "
               ghLink="https://github.com/Manishmeena10038/literate-carnival"
-               
+              demoLink="https://photos.google.com/share/AF1QipNgkgwkXG6YiCs_TTHWIAAD3MAqNNVrHxWD_QZphSSFk3eJ5-m9Na3MrRS4KxBBmg?pli=1&key=Z1Flb2RKTndCQm5EZEhMcXdEaXpTMjB1ZWttcE9B"
             />
           </Col>
         </Row>
