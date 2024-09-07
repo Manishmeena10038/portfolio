@@ -8,7 +8,7 @@ import frauddetection from "../../Assets/Projects/frauddetection.jpeg";
 import malvibol from "../../Assets/Projects/malvibolo.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import ecosort from "../../Assets/Projects/ecosort.png";
-import netflix from "../../Assets/Projects/netflixgpt.jpeg";
+import logo from "../../Assets/Projects/netflixgpt.jpeg";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -50,6 +50,18 @@ the type of waste, through the implementation of Machine Learning and Flask fram
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={logo}
+              isBlog={false}
+              title="Vichar1.0"
+              description="Developed a blog website using the MERN stack and Material UI, featuring 6 categories. It 
+allows users to create, edit, and delete posts, as well as JWT authentication. "
+              ghLink="https://github.com/manishmeena10038/vichar1.0"
+              demoLink="https://github.com/manishmeena10038/vichar1.0"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={frauddetection}
               isBlog={false}
               title="Online payment fraud detection"
@@ -59,30 +71,17 @@ the type of waste, through the implementation of Machine Learning and Flask fram
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={netflix}
-              isBlog={false}
-              title="Netflix-gpt"
-              description="Engineered an AI-driven application with features such as debouncing, caching, and
-robust security protocols; improved app performance by 40% and reduced data breaches
-by 15%. Deployed Firebase backend to enhance secure login protocols and enforce protected
-routes, leading to a 90% increase in user reliability and a significant decrease in
-unauthorized access incidents by 25%. Enhanced movie suggestions with OpenAI Apis and Advanced Logic, boosting
-recommendation accuracy by 20%. "
-              ghLink="https://github.com/manishmeena10038"
-              demoLink="https://github.com/manishmeena10038"              
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={solar}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/manishmeena10038"
-              demoLink="https://github.com/manishmeena10038"
+              title="Farming in the Digital Age: A Solar-Powered IoT Solution for Agriculture "
+              description="Developed an IoT system that automates irrigation, monitoring soil moisture (10-60%), 
+temperature (±0.5°C), and humidity (±2%), activating irrigation below 30% and deactivating above 50%. "
+              ghLink="https://github.com/Manishmeena10038/-Farming-in-the-Digital-Age-A-Solar-Powered-IoT-Solution-for-Agriculture"
+              demoLink="https://github.com/Manishmeena10038/-Farming-in-the-Digital-Age-A-Solar-Powered-IoT-Solution-for-Agriculture/blob/main/Demonstration"
             />
           </Col>
 
@@ -100,12 +99,12 @@ recommendation accuracy by 20%. "
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={aqr}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/manishmeena10038"
+              title="Smart Office: Monitoring Indoor Air Quality with Arduino"
+              description=" Designed a low-cost Arduino-based air pollution monitor using wireless tech, detecting CO2, 
+CO, and NH3, also measuring humidity and temperature, serving as an alcohol and smog detector. "
+              ghLink="https://github.com/Manishmeena10038/literate-carnival"
                
             />
           </Col>
