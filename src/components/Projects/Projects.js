@@ -2,13 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import solar from "../../Assets/Projects/leaf.png";
+import logo from "../../Assets/Projects/emotion.png";
 import frauddetection from "../../Assets/Projects/frauddetection.jpeg";
 import malvibol from "../../Assets/Projects/malvibolo.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import aqr from "../../Assets/Projects/suicide.png";
 import ecosort from "../../Assets/Projects/ecosort.png";
-import logo from "../../Assets/Projects/netflixgpt.jpeg";
+// import logo from "../../Assets/Projects/netflixgpt.jpeg";
 function Projects() {
   return (
     <Container fluid className="project-section">
